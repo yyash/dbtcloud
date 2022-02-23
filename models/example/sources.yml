@@ -11,3 +11,6 @@ sources:
       - name: store
       - name: address
       - name: staff
+      - name: customer
+      - name: country
+      - name: city

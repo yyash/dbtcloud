@@ -1,6 +1,7 @@
 {{ config(materialized='table') }}
 
-select 
+select
+{{ dbt_utils.surrogate_key(['stg_store.STORE_ID']) }} STORE_KEY,
 STG_STORE.STORE_ID,
 stg_address.DISTRICT,
 stg_address.ADDRESS,
