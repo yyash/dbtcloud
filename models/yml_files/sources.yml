@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: mysql_rds_sakila
+    database: sakila_raw
+    tables:
+      - name: actor
+      - name: address
+      - name: customer
+      - name: store
+      - name: staff
+      - name: city
+      - name: country
+      - name: rental
+      - name: film
+      - name: film_category
+      - name: language
+      - name: category
+      - name: payment
+      - name: inventory
