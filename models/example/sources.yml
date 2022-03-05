@@ -7,6 +7,9 @@ sources:
     tables:
       - name: actor
       - name: film
+      - name: language
+      - name: film_category
+      - name: category
       - name: film_actor
       - name: store
       - name: address
